@@ -10,7 +10,7 @@
 package main
 
 import "fmt"
-import "github.com/empi123/supermario/models"
+import "github.com/empi123/mycode/supermario/models"
 //import "models.Player"
 
 //type Player struct {
@@ -36,7 +36,7 @@ func (p Player) CanWhistle() bool {
 
 func main() {
     // mario := Player{3, 1, []string{"mushroom"}}
-    mario := models.Player{3, 1, []string{"mushroom"}}
+    mario := Player{3, 1, []string{"mushroom"}}
 
     // display mario's current lives
     fmt.Println(mario.Lives)
